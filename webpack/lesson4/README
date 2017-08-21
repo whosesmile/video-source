@@ -1,0 +1,5 @@
+1. webpack's Watch Mode
+2. webpack-dev-server
+3. source map debug
+4. hot module replacement: (import and accept should has the same name: hmr.js is not equals to hmr)
+   style + replace module + debug

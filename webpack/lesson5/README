@@ -1,0 +1,14 @@
+1. yar add postcss-loader --dev
+   .postcssrc || postcss.config.js
+   import vs css-loader importLoaders:num
+2. yarn add less less-loader --dev
+   import can auto process by less-loader
+3. cssnano
+4. babel-loader
+   presets:env means es2015+es2016+es2017
+   babel wont transpile new api, just transpile new syntax of es6
+
+   3 of choise:
+   1. babel-pollyfill: fullsize and also pollute the global scope
+   2. only load or document specify pollyfill by your self
+   3. use transform-runtime

@@ -1,0 +1,11 @@
+.large {
+  font-size: 38px;
+  color: #f00;
+}
+.button {
+  background-color: #eee;
+  border: transparent;
+  line-height: 1.5;
+  border-radius: 3px;
+  font-size: 16px;
+}

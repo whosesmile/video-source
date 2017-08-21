@@ -1,0 +1,15 @@
+.large {
+  font-size: 38px;
+  color: #f00;
+}
+.button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+  border-radius: 3px;
+  font-size: 16px;
+  outline: 0;
+}
+.button:active {
+  opacity: 0.8;
+}

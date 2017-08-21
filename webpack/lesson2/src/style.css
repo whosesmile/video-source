@@ -1,0 +1,8 @@
+body {
+  background: transparent url(./fox.jpg) center center no-repeat;
+  background-size: cover;
+}
+.large {
+  font-size: 38px;
+  color: #f00;
+}

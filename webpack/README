@@ -1,0 +1,33 @@
+#lesson1
+介绍webpack是什么？为什么会出现？解决什么问题？没有这个之前大家如何解决。
+
+#lesson2
+所有资源都可以是模块，都可以被引用。
+1. style-loader css-loader style-loader/url
+2. file-loader image font
+
+#lesson3
+一个项目有多个入口文件如何配置，如何自动生成html模板，清理构建目录。
+1. multi entry
+2. html-template: self def tpl
+3. folder-clean
+
+#lesson4
+开发中可以提升效率的方法
+1. webpack's Watch Mode
+2. webpack-dev-server
+3. source map debug
+4. hot module replacement
+  style + replace module + debug
+  (ps:import and accept should has the same name: hmr.js is not equals to hmr)
+
+#lesson5
+开发中的插件利器
+1. yar add postcss-loader --dev
+   .postcssrc || postcss.config.js
+   import vs css-loader importLoaders:num
+2. yarn add less less-loader --dev
+   import can auto process by less-loader
+3. cssnano
+4. babel-loader
+

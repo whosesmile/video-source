@@ -1,0 +1,19 @@
+{
+  "name": "lession1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "whosesmile <whosesmile@gmail.com> (https://github.com/whosesmile)",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "ramda": "^0.24.1"
+  }
+}
