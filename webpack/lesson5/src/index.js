@@ -11,6 +11,7 @@ function component() {
   button.addEventListener('click', logger, false);
   button.innerHTML = 'WEBPACK';
   button.classList.add('button');
+  button.classList.add('box');
   element.appendChild(button);
 
   return element;
@@ -27,12 +28,3 @@ button.addEventListener('click', append, false);
 if (module.hot) {
   module.hot.accept('./hmr');
 }
-
-// BABEL
-// will be transformed
-let a = 2 ** 2;
-let fn = item => item == 2;
-// will not
-[1, 2, 3].findIndex(fn);
-'abc'.includes('def');
-Object.assign({}, { a: 1 });

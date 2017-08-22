@@ -25,6 +25,9 @@ module.exports = {
   devServer: {
     contentBase: './dist',
     hot: true,
+    port: 8080,
+    disableHostCheck: true,
+    historyApiFallback: true,
   },
   devtool: 'inline-source-map', // eval inline-source-map cheap-eval-source-map
 };

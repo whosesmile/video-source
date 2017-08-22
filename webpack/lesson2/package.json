@@ -11,12 +11,10 @@
   "author": "whosesmile <whosesmile@gmail.com> (https://github.com/whosesmile)",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.5.5"
-  },
-  "dependencies": {
     "css-loader": "^0.28.5",
     "file-loader": "^0.11.2",
     "ramda": "^0.24.1",
-    "style-loader": "^0.18.2"
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5"
   }
 }

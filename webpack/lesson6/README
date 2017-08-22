@@ -1,0 +1,12 @@
+BABEL
+yarn add babel-cli babel-loader babel-core babel-preset-env --dev
+
+presets:env means es2015+es2016+es2017
+babel wont transpile new api, just transpile new syntax of es6
+
+npm babel-cli script
+
+three of choise:
+1. babel-pollyfill: fullsize and also pollute the global scope
+2. only load or document specify pollyfill by your self
+3. use transform-runtime

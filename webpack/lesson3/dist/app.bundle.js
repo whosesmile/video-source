@@ -4502,7 +4502,7 @@ exports = module.exports = __webpack_require__(123)(undefined);
 
 
 // module
-exports.push([module.i, ".large {\n  font-size: 38px;\n  color: #f00;\n}\n. button {\n  background-color: #eee;\n  border: transparent;\n  line-height: 1.5;\n  border-radius: 3px;\n  font-size: 16px;\n}", ""]);
+exports.push([module.i, ".large {\n  font-size: 38px;\n  color: #f00;\n}\n.button {\n  background-color: #eee;\n  border: transparent;\n  line-height: 1.5;\n  border-radius: 3px;\n  font-size: 16px;\n}", ""]);
 
 // exports
 

@@ -1,5 +1,10 @@
 #lesson1
 介绍webpack是什么？为什么会出现？解决什么问题？没有这个之前大家如何解决。
+1. npm init -y
+2. npm install yarn -g
+3. yarn add webpack --dev
+4. index.js index.html yarn add ramda --dev
+5. externals
 
 #lesson2
 所有资源都可以是模块，都可以被引用。
@@ -17,17 +22,31 @@
 1. webpack's Watch Mode
 2. webpack-dev-server
 3. source map debug
-4. hot module replacement
-  style + replace module + debug
-  (ps:import and accept should has the same name: hmr.js is not equals to hmr)
+4. hot module replacement: (import and accept should has the same name: hmr.js is not equals to hmr)
+   style + replace module + debug
 
 #lesson5
-开发中的插件利器
+开发中的CSS工具
+POSTCSS
 1. yar add postcss-loader --dev
    .postcssrc || postcss.config.js
    import vs css-loader importLoaders:num
 2. yarn add less less-loader --dev
    import can auto process by less-loader
 3. cssnano
-4. babel-loader
+4. sourcemap
 
+#lesson6
+开发中的JS工具
+BABEL
+yarn add babel-cli babel-loader babel-core babel-preset-env --dev
+
+presets:env means es2015+es2016+es2017
+babel wont transpile new api, just transpile new syntax of es6
+
+npm babel-cli script
+
+three of choise:
+1. babel-pollyfill: fullsize and also pollute the global scope
+2. only load or document specify pollyfill by your self
+3. use transform-runtime

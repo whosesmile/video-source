@@ -11,9 +11,7 @@
   "author": "whosesmile <whosesmile@gmail.com> (https://github.com/whosesmile)",
   "license": "ISC",
   "devDependencies": {
+    "ramda": "^0.24.1",
     "webpack": "^3.5.5"
-  },
-  "dependencies": {
-    "ramda": "^0.24.1"
   }
 }

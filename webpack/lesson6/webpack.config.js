@@ -14,18 +14,31 @@ module.exports = {
   module: {
     rules: [{
       test: /\.less$/,
-      // use: ['style-loader', { loader: 'css-loader', options: { importLoaders: 1 } }, 'postcss-loader', 'less-loader'],
-      use: [{ loader: 'style-loader', options: { sourceMap: true } },
-        { loader: 'css-loader', options: { sourceMap: true, importLoaders: 1 } },
-        { loader: 'postcss-loader', options: { sourceMap: true } },
-        { loader: 'less-loader', options: { sourceMap: true } },
-      ],
+      use: ['style-loader', { loader: 'css-loader', options: { importLoaders: 1 } }, 'postcss-loader', 'less-loader'],
+    }, {
+      test: /\.js$/,
+      exclude: /(node_modules|bower_components)/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          // presets: ['env'],
+          // plugins: [
+          //   ['transform-runtime', {
+          //     helpers: true,
+          //     polyfill: true,
+          //     regenerator: true,
+          //     moduleName: 'babel-runtime',
+          //   }]
+          // ],
+          cacheDirectory: true,
+        }
+      }
     }],
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({ title: 'HELLO WEBPACK' }),
-    new webpack.HotModuleReplacementPlugin(),
+    // new webpack.HotModuleReplacementPlugin(),
   ],
   devServer: {
     contentBase: './dist',

@@ -1,4 +1,5 @@
 1. npm init -y
 2. npm install yarn -g
-3. yarn add webpack
-4. index.js index.html ramda
+3. yarn add webpack --dev
+4. index.js index.html yarn add ramda --dev
+5. externals
