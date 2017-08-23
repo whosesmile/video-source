@@ -1,0 +1,36 @@
+{
+  "name": "lession5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch",
+    "babel": "babel src --out-dir dist",
+    "//": "webpack -p --progress --profile",
+    "//": "webpack --config webpack3.config.js --env production --progress --profile",
+    "build": "NODE_ENV=production webpack --config webpack3.config.js --progress --profile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "whosesmile <whosesmile@gmail.com> (https://github.com/whosesmile)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.5",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "postcss-loader": "^2.0.6",
+    "ramda": "^0.24.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

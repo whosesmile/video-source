@@ -1,0 +1,12 @@
+PRODUCTION
+
+$: NODE_ENV=production node
+
+1. uglify + define NODE_ENV
+
+   Automatic:
+   webpack -p
+   webpack --optimize-minimize --define process.env.NODE_ENV=production
+
+2. define two config.js
+3. export a function
